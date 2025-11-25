@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello (Cruel) World!"
+    return "Hello (Cruel) DevOps World!"
 
 if __name__ == "__main__":
     # 0.0.0.0 kell Dockerhez, port 8080 a feladat szerint is jó
