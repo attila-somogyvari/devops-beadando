@@ -21,8 +21,6 @@ Az alkalmazás egy minimalis Flask webszolgaltatas, ami HTTP-n keresztul erheto 
 
 ##  2. Buildeles es futtatas lokalisan
 
----
-
 ### 2.1 virtualis kornyezet letrehozasa
 
 Windows eseteben:
@@ -73,15 +71,17 @@ docker run -p 8080:8080 hello-devops:v1
 ---
 
 ## 4. Git - Trunk-alapu fejlesztes
-- ** projekt GitHub repojanak elerhetosege:** https://github.com/attila-somogyvari/devops-beadando
+**A projekt GitHub repojanak elerhetosege:** https://github.com/attila-somogyvari/devops-beadando
 
-A "program" letrehozasa trunk-alapu modell szerint tortent:
+**A "program" letrehozasa trunk-alapu modell szerint tortent:
 
 - `main` -> stabil branch
 
-- A fejlesztes -> rovid elettartamu feature branceken keresztul
+- A fejlesztes -> rovid elettartamu feature brancheken keresztul
 
 - Azt kovetoen vissza mergelunk a trunkra (main)
+
+---
 
 Peldafolyamat:
 
