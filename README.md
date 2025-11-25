@@ -147,7 +147,7 @@ devops-beadando/
 
 ## 7. Egyeb megjegyzesek
 
-- A Flask fejlesztoi szerver nem produkcios hasznalatra keszult.
+- A Flask fejlesztoi szerver nem produkcios hasznalatra keszult. (Erre vonatkozoan figyelmezteto uzenetet is dob a Flask.)
 
 - Kontenerben futtatva a Flask szerver automatikusan indul.
 
