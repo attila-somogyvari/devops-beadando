@@ -1,6 +1,6 @@
 # DevOps feladat – Hello World alkalmazas Flask (PY) hasznalataval
 
-Ez a projekt egy szimpla "Hello World" Flask alkalmazast futtat, amelyen keresztul bemutatom az elvart alap DevOps lepeseket:
+Ez a projekt egy szimpla "Hello World" Flask webalkalmazast futtat, amelyen keresztul bemutatom az elvart alap DevOps lepeseket:
 
 - program forraskod
 - verziokezeles (trunk alapu)  
@@ -73,7 +73,7 @@ docker run -p 8080:8080 hello-devops:v1
 ## 4. Git - Trunk-alapu fejlesztes
 **A projekt GitHub repojanak elerhetosege:** https://github.com/attila-somogyvari/devops-beadando
 
-**A "program" letrehozasa trunk-alapu modell szerint tortent:
+**A "program" letrehozasa trunk-alapu modell szerint tortent:**
 
 - `main` -> stabil branch
 
@@ -86,8 +86,9 @@ docker run -p 8080:8080 hello-devops:v1
 Peldafolyamat:
 
 ```bash
+#modositasokat az app.py-ben
+
 git checkout -b feature/update-message
-# modositas app.py-ben
 git add app.py
 git commit -m "Uzenet frissitese"
 git checkout main
@@ -108,19 +109,19 @@ A pipeline automatikusan lefut:
 
 - minden pull request eseten a main-re
 
-** A pipeline fobb lepesei:
+** A pipeline fobb lepesei:**
 1. Repo checkout
 2. Python kornyezet beallitasa
 3. Dependenciak telepitese
 4. Docker Hub login (GitHub Secrets atiranyitassal)
 5. Docker img build majd push a Docker Hubra
 
-**Publikus Docker Hub img linkje:
+**Publikus Docker Hub img linkje:**
 ```bash
 xoserino/hello-devops:latest
 ```
 
-**Img lehuzasa es futtatasa:
+**Img lehuzasa es futtatasa:**
 ```bash
 docker pull xoserino/hello-devops:latest
 docker run -p 8080:8080 xoserino/hello-devops:latest
