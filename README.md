@@ -109,7 +109,9 @@ A pipeline automatikusan lefut:
 
 - minden pull request eseten a main-re
 
-** A pipeline fobb lepesei:**
+---
+
+**A pipeline fobb lepesei:**
 1. Repo checkout
 2. Python kornyezet beallitasa
 3. Dependenciak telepitese
