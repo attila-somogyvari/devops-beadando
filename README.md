@@ -41,6 +41,8 @@ pip install -r requirements.txt```
 ```bash
 python app.py```
 
+---
+
 ## 3. Docker hasznalata
 A projekt tartalmaz egy `Dockerfile`-t, amellyel az alkalmazas kontenerbe csomagolhato.
 
@@ -51,6 +53,8 @@ docker build -t hello-devops:v1 .```
 ### 3.2 Docker kontener futtatasa (8080-as port)
 ```bash
 docker run -p 8080:8080 hello-devops:v1```
+
+---
 
 ## 4. Git - Trunk-alapu fejlesztes
 - ** projekt GitHub repojanak elerhetosege:** https://github.com/attila-somogyvari/devops-beadando
@@ -73,6 +77,8 @@ git commit -m "Uzenet frissitese"
 git checkout main
 git merge feature/update-message
 git push```
+
+---
 
 ## 5. CI - GitHub Actions es Docker Hub integracio
 
@@ -101,6 +107,8 @@ xoserino/hello-devops:latest```
 docker pull xoserino/hello-devops:latest
 docker run -p 8080:8080 xoserino/hello-devops:latest```
 
+---
+
 ## 6. Projekt strukturaja
 ```bash
 devops-beadando/
@@ -112,6 +120,8 @@ devops-beadando/
     └── workflows/
         └── ci.yml```
 		
+---
+
 ## 7. Egyeb megjegyzesek
 
 - A Flask fejlesztoi szerver nem produkcios hasznalatra keszult.
@@ -123,3 +133,5 @@ devops-beadando/
 - A Docker Hub-on tarolt image teljes mertekben reprodukalhato.
 
 - A trunk-based fejlesztes atlathato es konnyen kovetheto.
+
+---
