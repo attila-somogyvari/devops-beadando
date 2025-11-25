@@ -28,24 +28,28 @@ Az alkalmazás egy minimalis Flask webszolgaltatas, ami HTTP-n keresztul erheto 
 Windows eseteben:
 ```bash
 python -m venv venv
-venv\Scripts\activate```
+venv\Scripts\activate
+```
 
 Linux / macOS eseteben:
 ```bash
 python -m venv venv
-source venv/bin/activate```
+source venv/bin/activate
+```
 
 ---
 
 ### 2.2 Dependenciak telepitese
 ```bash
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
 
 ---
 
 ### 2.3 Alkalmazas futtatasa
 ```bash
-python app.py```
+python app.py
+```
 
 ---
 
@@ -56,13 +60,15 @@ A projekt tartalmaz egy `Dockerfile`-t, amellyel az alkalmazas kontenerbe csomag
 
 ### 3.1 Docker img buildelese
 ```bash
-docker build -t hello-devops:v1 .```
+docker build -t hello-devops:v1 .
+```
 
 ---
 
 ### 3.2 Docker kontener futtatasa (8080-as port)
 ```bash
-docker run -p 8080:8080 hello-devops:v1```
+docker run -p 8080:8080 hello-devops:v1
+```
 
 ---
 
@@ -86,7 +92,8 @@ git add app.py
 git commit -m "Uzenet frissitese"
 git checkout main
 git merge feature/update-message
-git push```
+git push
+```
 
 ---
 
@@ -110,12 +117,14 @@ A pipeline automatikusan lefut:
 
 **Publikus Docker Hub img linkje:
 ```bash
-xoserino/hello-devops:latest```
+xoserino/hello-devops:latest
+```
 
 **Img lehuzasa es futtatasa:
 ```bash
 docker pull xoserino/hello-devops:latest
-docker run -p 8080:8080 xoserino/hello-devops:latest```
+docker run -p 8080:8080 xoserino/hello-devops:latest
+```
 
 ---
 
@@ -128,7 +137,8 @@ devops-beadando/
 ├── README.md
 └── .github/
     └── workflows/
-        └── ci.yml```
+        └── ci.yml
+```
 		
 ---
 
