@@ -1,9 +1,9 @@
-# DevOps Beadando – Hello World alkalmazas Flask (PY) hasznalataval
+# DevOps beadando feladat – Hello World alkalmazas Flask (PY) hasznalataval
 
-Ez a projekt egy egyszeru "Hello World" Flask alkalmazast futtat, amelyen keresztul bemutatom az alap Devops lepeseket:
+Ez a projekt egy szimpla "Hello World" Flask alkalmazast futtat, amelyen keresztul bemutatom az elvart alap DevOps lepeseket:
 
-- kodiras
-- verziokezeles (trunk-based)  
+- program forraskod
+- verziokezeles (trunk alapu)  
 - buildeles
 - kontenerizalas (Docker-rel)  
 - CI pipeline + Docker Hub registrybe pusholas  
@@ -14,14 +14,12 @@ Ez a projekt egy egyszeru "Hello World" Flask alkalmazast futtat, amelyen keresz
 
 Az alkalmazás egy minimalis Flask webszolgaltatas, ami HTTP-n keresztul erheto el es egy egyszeru szoveget jelenit meg.
 
-- **Elerhetosegi cime:** http://localhost:8080  
+- **Elerhetosegi cime a kovetkezo:** http://localhost:8080  
 - **Forraskod az "alkalmazashoz":** `app.py`
 
 ---
 
-##  2. Buildeles es futtatas (lokalisan)
-
-### 2.1 (Opcionalis) virtualis kornyezet letrehozasa
+##  2. Buildeles es futtatas lokalisan
 
 Windows eseteben:
 
