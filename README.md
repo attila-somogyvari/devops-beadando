@@ -1,4 +1,4 @@
-# DevOps feladat – Hello World alkalmazas Flask (PY) hasznalataval
+# DevOps – Hello World webalkalmazas Flask (PY) hasznalataval
 
 Ez a projekt egy szimpla "Hello World" Flask webalkalmazast futtat, amelyen keresztul bemutatom az elvart alap DevOps lepeseket:
 
