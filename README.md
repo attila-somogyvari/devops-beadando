@@ -21,6 +21,8 @@ Az alkalmazás egy minimalis Flask webszolgaltatas, ami HTTP-n keresztul erheto 
 
 ##  2. Buildeles es futtatas lokalisan
 
+---
+
 ### 2.1 virtualis kornyezet letrehozasa
 
 Windows eseteben:
