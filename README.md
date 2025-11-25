@@ -157,4 +157,8 @@ devops-beadando/
 
 - A trunk-based fejlesztes atlathato es konnyen kovetheto.
 
+Az alkalmazas vegpontjai:
+
+- `/` – alapveto "Hello World" szeru uzenet
+- `/info` – egyszeru metaadat az alkalmazasrol
 ---
