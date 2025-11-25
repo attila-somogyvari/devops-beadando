@@ -33,9 +33,13 @@ Linux / macOS eseteben:
 python -m venv venv
 source venv/bin/activate```
 
+---
+
 ### 2.2 Dependenciak telepitese
 ```bash
 pip install -r requirements.txt```
+
+---
 
 ### 2.3 Alkalmazas futtatasa
 ```bash
@@ -46,9 +50,13 @@ python app.py```
 ## 3. Docker hasznalata
 A projekt tartalmaz egy `Dockerfile`-t, amellyel az alkalmazas kontenerbe csomagolhato.
 
+---
+
 ### 3.1 Docker img buildelese
 ```bash
 docker build -t hello-devops:v1 .```
+
+---
 
 ### 3.2 Docker kontener futtatasa (8080-as port)
 ```bash
