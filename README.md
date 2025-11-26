@@ -134,6 +134,8 @@ docker run -p 8080:8080 xoserino/hello-devops:latest
 ## 6. Projekt strukturaja
 ```bash
 devops-beadando/
+├── venv
+├── .devcontainer
 ├── app.py
 ├── requirements.txt
 ├── Dockerfile
