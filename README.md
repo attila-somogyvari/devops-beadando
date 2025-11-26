@@ -15,6 +15,7 @@ Ez a projekt egy szimpla "Hello World" Flask webalkalmazast futtat, amelyen kere
 Az alkalmazás egy minimalis Flask webszolgaltatas, ami HTTP-n keresztul erheto el es egy egyszeru szoveget jelenit meg.
 
 - **Elerhetosegi cime a kovetkezo:** http://localhost:8080  
+- **Nyilvanos Dockerhub repo linkje:** https://hub.docker.com/repository/docker/xoserino/hello-devops/general
 - **Forraskod az "alkalmazashoz":** `app.py`
 
 ---
