@@ -16,7 +16,6 @@ Az alkalmazás egy minimalis Flask webszolgaltatas, ami HTTP-n keresztul erheto 
 
 - **Elerhetosegi cime a kovetkezo:** http://localhost:8080  
 - **Tovabbi vegpontok:** /info -> Verzio metaadat lekeres; /egeszseg -> Teljesitmeny metrika
-
 - **Forraskod az "alkalmazashoz":** `app.py`
 
 ---
@@ -161,6 +160,7 @@ devops-beadando/
 
 Az alkalmazas vegpontjai:
 
-- `/` – alapveto "Hello World" szeru uzenet
+- `/` – alapveto "Hello World" szeru uzenet (fooldal)
 - `/info` – egyszeru metaadat az alkalmazasrol
+- `/egeszseg` – teljesitmeny metrika
 ---
