@@ -15,6 +15,8 @@ Ez a projekt egy szimpla "Hello World" Flask webalkalmazast futtat, amelyen kere
 Az alkalmazás egy minimalis Flask webszolgaltatas, ami HTTP-n keresztul erheto el es egy egyszeru szoveget jelenit meg.
 
 - **Elerhetosegi cime a kovetkezo:** http://localhost:8080  
+- **Tovabbi vegpontok:** /info -> Verzio metaadat lekeres; /egeszseg -> Teljesitmeny metrika
+
 - **Forraskod az "alkalmazashoz":** `app.py`
 
 ---
