@@ -1,4 +1,6 @@
-from flask import Flask
+import resource
+import os
+from flask import Flask, jsonify
 
 app = Flask(__name__)
 
@@ -9,6 +11,17 @@ def hello():
 @app.route("/info")
 def info():
     return "App: Hello (Cruel) DevOps World – Verzio 1.0.0"
+
+@app.route("/egeszseg")
+def health_check_std():
+    usage = resource.getrusage(resource.RUSAGE_SELF)
+    memory_mb = usage.ru_maxrss / 1024 
+    
+    return jsonify({
+        "status": "ok",
+        "memory_mb": round(memory_mb, 2),
+    })
+
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
