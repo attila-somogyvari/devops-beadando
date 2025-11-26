@@ -172,9 +172,10 @@ hogy a teljes fejlesztokornyezet kontenerben futhasson.
 Utmutato ehhez:
 
 1. Nyisd meg a projektet VSCode-ban.
-2. Telepítsd a **Dev Containers** bővítményt (ms-vscode-remote.remote-containers).
-3. Alul, a zöld ikonra kattintva válaszd: **“Reopen in Container”**.
-4. A konténerben nyiss egy terminált és futtasd: 
+2. Telepitsd a **Dev Containers** bovitmenyt (ms-vscode-remote.remote-containers).
+3. Az alul felugro dialogusra kattintva valaszd: **“Reopen in Container”**.
+4. A kontenerben nyiss egy uj terminalt es futtasd az alkalmazast: 
 ```bash
-python app.py```
+python app.py
+```
 ---
