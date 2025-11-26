@@ -1,0 +1,45 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ---- Virtual environment ----
+venv/
+.env/
+env/
+
+# ---- IDE / Editor configs ----
+.vscode/
+.idea/
+*.swp
+
+# ---- OS-specific files ----
+.DS_Store
+Thumbs.db
+
+# ---- Logs ----
+*.log
+*.tmp
+
+# ---- Python build artefacts ----
+build/
+dist/
+*.egg-info/
+
+# ---- Docker ----
+# Docker build cache
+*.tar
+**/.dockerignore
+
+# ---- Flask specific ----
+instance/
+*.db
+
+# ---- GitHub related ----
+# Token cache
+*.pem
+
+# ---- Misc ----
+# Backup files
+*.bak
