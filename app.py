@@ -1,5 +1,4 @@
-import resource
-import os
+import psutil
 from flask import Flask, jsonify
 
 app = Flask(__name__)
@@ -14,14 +13,14 @@ def info():
 
 @app.route("/egeszseg")
 def health_check_std():
-    usage = resource.getrusage(resource.RUSAGE_SELF)
-    memory_mb = usage.ru_maxrss / 1024 
-    
+    process = psutil.Process()
+    memory_bytes = process.memory_info().rss  # RAM usage
+    memory_mb = memory_bytes / (1024 * 1024)
+
     return jsonify({
         "status": "ok",
         "memory_mb": round(memory_mb, 2),
     })
-
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
