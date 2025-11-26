@@ -164,4 +164,16 @@ Az alkalmazas vegpontjai:
 - `/` – alapveto "Hello World" szeru uzenet (fooldal)
 - `/info` – egyszeru metaadat az alkalmazasrol
 - `/egeszseg` – teljesitmeny metrika
+
+## 8. Fejlesztoi kontener (VSCode Dev Container extension)
+A projekt tartalmaz egy VSCode Dev Container konfiguraciot (`.devcontainer/devcontainer.json`), ami lehetove teszi,
+hogy a teljes fejlesztokornyezet kontenerben futhasson.
+
+Utmutato ehhez:
+
+1. Nyisd meg a projektet VSCode-ban.
+2. Telepítsd a **Dev Containers** bővítményt (ms-vscode-remote.remote-containers).
+3. Alul, a zöld ikonra kattintva válaszd: **“Reopen in Container”**.
+4. A konténerben nyiss egy terminált és futtasd: ```bash
+python app.py
 ---
