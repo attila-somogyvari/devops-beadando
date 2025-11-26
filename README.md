@@ -174,6 +174,7 @@ Utmutato ehhez:
 1. Nyisd meg a projektet VSCode-ban.
 2. Telepítsd a **Dev Containers** bővítményt (ms-vscode-remote.remote-containers).
 3. Alul, a zöld ikonra kattintva válaszd: **“Reopen in Container”**.
-4. A konténerben nyiss egy terminált és futtasd: ```bash
-python app.py
+4. A konténerben nyiss egy terminált és futtasd: 
+```bash
+python app.py```
 ---
